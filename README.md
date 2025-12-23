@@ -61,11 +61,16 @@ Note that the port in [.env.test] should be consistent with the server port.
 4. Initial Configuration
 
 Initial Login:
+
 ![Initial Login](/docs/images/init-login.png)
-Account: qbone Password: qianbone.com
+
+Account: qbone
+Password: qianbone.com
 
 After logging in, the initialization parameter setting interface will open:
+
 ![Initial Config](/docs/images/init-config.png)
+
 Modify the MongoDB database configuration. After modification, restart the service. For the first login to the system, you need to register enterprise information and creator account. After successful registration, log in with the creator account to use the system. Administrators can change the administrator password. The next time you log in to the initialization settings page, you need to use the new password. If you forget the password, you can delete the qb-config.json configuration file, re-run the system, and reconfigure the initialization parameters.
 
 ## 📁 Project Structure

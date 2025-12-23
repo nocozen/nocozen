@@ -62,11 +62,16 @@ pnpm dev
 4、初始化配置
 
 初始化登录：
+
 ![初始化登录](/docs/images/init-login.png)
-账户：qbone 密码：qianbone.com
+
+账户：qbone
+密码：qianbone.com
 
 登录后打开初始化参数设置界面：
+
 ![初始化登录](/docs/images/init-config.png)
+
 修改MongoDB数据库配置，修改完成后重启服务即可。首次登录系统需要先注册企业信息和创建者账户，注册成功后用创建者账户登录即可使用。管理员可以修改管理员密码，下次登录初始化设置界面需要使用新密码。如果遗忘密码可以删除qb-config.json配置文件重新运行系统重新配置初始化参数即可。
 
 ## 📁 项目结构
