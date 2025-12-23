@@ -134,7 +134,16 @@ pnpm dev
 - 📍 英语国际化支持
 ...
 
-## 📄 许可证
+## 🌐 仓库镜像说明
+
+本项目**主仓库托管于 GitHub**，并自动同步至 **Gitee 镜像仓库**，以便中国大陆用户快速访问。
+
+- **主站（GitHub）**: https://github.com/nocozen/nocozen
+- **镜像（Gitee）**: https://gitee.com/nocozen/nocozen
+
+> ⚠️ 所有 Issue、Pull Request 及讨论请提交至 **GitHub 主仓库**。Gitee 仅为只读镜像。
+
+## 📄 开源许可证
 
 [![AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 

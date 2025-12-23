@@ -133,6 +133,15 @@ Modify the MongoDB database configuration. After modification, restart the servi
 - 📍 English internationalization support
 ...
 
+## 🌐 Repository Mirrors
+
+The canonical source of this project is hosted on **GitHub**. A read-only mirror is maintained on **Gitee** to provide faster access for users in mainland China.
+
+- **Main (GitHub)**: https://github.com/nocozen/nocozen
+- **Mirror (Gitee)**: https://gitee.com/nocozen/nocozen
+
+> 🔔 Please submit all issues, pull requests, and discussions on **GitHub**. The Gitee repository is a mirror.
+
 ## 📄 License
 
 [![AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
