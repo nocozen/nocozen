@@ -65,8 +65,7 @@ pnpm dev
 
 ![初始化登录](/docs/images/init-login.png)
 
-账户：qbone
-密码：qianbone.com
+账户：qbone   初始密码：qianbone.com
 
 登录后打开初始化参数设置界面：
 

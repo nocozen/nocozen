@@ -64,8 +64,7 @@ Initial Login:
 
 ![Initial Login](/docs/images/init-login.png)
 
-Account: qbone
-Password: qianbone.com
+Account: qbone   Initial Password: qianbone.com
 
 After logging in, the initialization parameter setting interface will open:
 
