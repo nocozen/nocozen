@@ -1,0 +1,81 @@
+@import './reset.css';
+@import './nprogress.css';
+@import './transition.css';
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html.grayscale {
+  filter: grayscale(100%);
+}
+
+.n-tooltip {
+  font-size: 12px;
+}
+
+.n-menu .n-menu-item {
+  margin-top: 1px;
+  height: 38px; 
+}
+
+.n-menu-item-content__arrow {
+  display: none;
+}
+
+.n-dropdown-menu .n-dropdown-option .n-dropdown-option-body .n-dropdown-option-body__prefix.n-dropdown-option-body__prefix--show-icon {
+  width: 26px;
+  justify-content: end;
+  margin-right: 4px;
+}
+
+.n-drawer.n-drawer--bottom-placement {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.n-drawer.n-drawer--left-placement {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.n-form-item .n-form-item-feedback-wrapper:not(:empty) {
+  padding: 0
+}
+.n-form-item .n-form-item-feedback-wrapper {
+  height: 12px;
+  min-height: 12px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+
+.n-dropdown-menu .n-dropdown-option .n-dropdown-option-body .n-dropdown-option-body__suffix .n-icon {
+  margin-top: 2px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.n-popover-shared.n-popover-shared--show-arrow {
+  --n-space-arrow: 4px !important; /* 默认是 8px，这里缩小为 4px */
+}
+
+:root .aie-theme-dark {
+  --aie-bg-color: rgb(24, 24, 28) !important
+}

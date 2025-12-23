@@ -1,0 +1,15 @@
+{
+  "name": "@sa/hooks",
+  "version": "1.3.13",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "*": ["./src/*"]
+    }
+  },
+  "dependencies": {
+    "@sa/utils": "workspace:*"
+  }
+}
