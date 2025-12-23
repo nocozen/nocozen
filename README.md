@@ -2,7 +2,7 @@
 
 ## 🌟 Project Introduction
 
-NocoZen is a modern web application built with Vue3 and Node.js, designed to provide users with an out-of-the-box solution for quickly building various business systems.
+NocoZen is a nocode web application built with Vue3 and Node.js, designed to provide users with an out-of-the-box solution for quickly building various business systems.
 
 ## 🚀 Core Advantages
 
