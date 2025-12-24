@@ -130,7 +130,7 @@ Modify the MongoDB database configuration. After modification, restart the servi
 - 📍 AI digital employee
 - 📍 AI knowledge base management
 - 📍 AI intelligent data analysis
-- 📍 English internationalization support
+- 📍 Supports multiple languages
 ...
 
 ## 🌐 Repository Mirrors
