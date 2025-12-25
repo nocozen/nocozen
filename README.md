@@ -1,24 +1,28 @@
-<h4 align="right"><a href="./README.zh.md">简体中文</a> | <strong>English</strong></h4>
+<h4 align="right" ><a href="./README.en.md">English</a> | <strong>简体中文</strong></h4>
 
-## 🌟 Project Introduction
+## 🌟 项目介绍
 
-NocoZen is a nocode web application built with Vue3 and Node.js, designed to provide users with an out-of-the-box solution for quickly building various business systems.
+NocoZen(仟伯零代码软件搭建平台)是一个基于 Vue3 和 Node.js 构建的零代码/低代码 Web 应用搭建平台，旨在为用户提供即开即用快速搭建各类业务系统的解决方案。
 
-## 🚀 Core Advantages
+如果您既想要拥有明道云、简道云这样成熟产品的用户体验，又想要打造完全属于自己的零代码开发平台，但又从零开始成本太高，对于企业用户同时又想要实现可审计、掌控源代码、掌控数据主权，那么基于该开源技术打造自己的零代码软件平台是您唯一适合的选项，可以为您提供了一个完美的起点。既能够实现即开即用的可视化搭建，又无需从零开发就能快速上线业务系统，无论是想要搭建内部管理系统，还是想要打造自己的SaaS平台，NocoZen都是你理想的选择。
 
-### 1. "No-Code" Building
-- The platform provides self-developed form designer, workflow designer, report designer, and application customization functions, all configurable through drag-and-drop operations. The customization features are flexible and easy to use.
+👉 如果这个项目对您有帮助，请点个 ⭐️ 支持我们！每一个Star都是我们持续迭代的动力～
 
-### 2. Ultimate Performance
-- The platform optimizes performance at all levels from frontend to backend by selecting the highest-performing technologies in each category, ensuring smooth system operation and fast response to data interactions.
+## 🚀 核心优势
 
-### 3. Security and Reliability
-- Platform data transmission and storage adopt high-security redundant designs. Data at all levels is protected by highly reliable encryption and decryption algorithms to ensure data security.
+### 1. “零代码”搭建
+- 平台提供自研的表单设计器、流程设计器、报表设计器、应用定制功能均通过鼠标拖拽配置，定制功能灵活易用
 
-### 4. Minimalist Technical Architecture
-- Unified development language and environment for both frontend and backend, high technical reuse, concise code, and rapid iteration to respond to customer needs.
+### 2. 极致性能
+- 平台从前端到后端各个层次都优选了同类型中最高性能的技术做优化，系统操作顺滑，数据交互快速响应
 
-## 🛠️ Tech Stack
+### 3. 安全可靠
+- 平台数据传输和保存采用高安全冗余设计，各层次的数据都采用了高可靠的加解密算法保护数据安全
+
+### 4. 极简技术架构
+- 前后端统一使用一种开发语言和开发环境，技术复用度高，代码精简，能够快速迭代响应客户需求
+
+## 🛠️ 技术栈
 
 - Vue3 + TypeScript
 - Vite
@@ -31,111 +35,118 @@ NocoZen is a nocode web application built with Vue3 and Node.js, designed to pro
 - VisActor/VTable
 - ...
 
-## 📦 Quick Start
 
-### Prerequisites
+## 📦 快速开始
+
+## 环境要求
 
 - Node.js >= 20.0.0
 - pnpm >= 10.0.0
 
-### Development Environment
+### 开发环境
 
-1. Start the NocoZenBase server side
+1、启动NocoZenBase服务端
 
-Refer to the NocoZenBase documentation for operation, ensuring the service starts properly.
+参考NocoZenBase文档操作，确保服务启动正常。
 
-2. Install dependencies
+2、安装依赖
 
 ```bash
 pnpm install
 ```
 
-3. Start the development server:
+3、启动开发服务器：
 
 ```bash
 pnpm dev
 ```
 
-Note that the port in [.env.test] should be consistent with the server port.
+注意【.env.test】中的端口和服务器端口一致。
 
-4. Initial Configuration
+4、初始化配置
 
-Initial Login:
+初始化登录:
 
-Account: qbone   Initial Password: qianbone.com
+账户：qbone   初始密码：qianbone.com
 
-After logging in, the initialization parameter setting interface will open Modify the MongoDB database configuration. After modification, restart the service. For the first login to the system, you need to register enterprise information and creator account. After successful registration, log in with the creator account to use the system. Administrators can change the administrator password. The next time you log in to the initialization settings page, you need to use the new password. If you forget the password, you can delete the qb-config.json configuration file, re-run the system, and reconfigure the initialization parameters.
+登录后打开初始化参数设置界面修改MongoDB数据库配置，修改完成后重启服务即可。首次登录系统需要先注册企业信息和创建者账户，注册成功后用创建者账户登录即可使用。管理员可以修改管理员密码，下次登录初始化设置界面需要使用新密码。如果遗忘密码可以删除qb-config.json配置文件重新运行系统重新配置初始化参数即可。
 
-## 📁 Project Structure
+## 📁 项目结构
 
 ```
 .
-├── packages/               # Monorepo packages
-│   ├── alova/              # Alova library wrapper
-│   ├── color/              # Color utilities
-│   ├── hooks/              # Custom hooks
-│   ├── materials/          # Material components
-│   ├── ofetch/             # Ofetch wrapper
-│   ├── scripts/            # Scripts and commands
-│   ├── uno-preset/         # UnoCSS presets
-│   └── utils/              # Utility functions
-├── src/                    # Main source code
-│   ├── components/         # Reusable components
-│   ├── constants/          # Constant definitions
-│   ├── enum/               # Enumerations
-│   ├── hooks/              # Business and common hooks
-│   ├── layouts/            # Page layouts
-│   ├── localdb/            # Local database helpers
-│   ├── locales/            # Internationalization files
-│   ├── plugins/            # Plugin configurations
-│   ├── router/             # Routing configurations
-│   ├── service/            # API services
-│   ├── store/              # Pinia stores
-│   ├── styles/             # Style files
-│   ├── theme/              # Theme configurations
-│   ├── typings/            # TypeScript declarations
-│   ├── utils/              # Utility functions
-│   ├── views/              # Page views
-│   ├── App.vue             # Root component
-│   └── main.ts             # Entry point
-├── index.html              # HTML template
-├── vite.config.ts          # Vite configuration
-├── tsconfig.json           # TypeScript configuration
-├── uno.config.ts           # UnoCSS configuration
-└── package.json            # Project manifest
+├── packages/               # Monorepo 包
+│   ├── alova/              # Alova 库封装
+│   ├── color/              # 颜色工具
+│   ├── hooks/              # 自定义钩子
+│   ├── materials/          # 材料组件
+│   ├── ofetch/             # Ofetch 封装
+│   ├── scripts/            # 脚本和命令
+│   ├── uno-preset/         # UnoCSS 预设
+│   └── utils/              # 工具函数
+├── src/                    # 主源代码
+│   ├── components/         # 可复用组件
+│   ├── constants/          # 常量定义
+│   ├── enum/               # 枚举类型
+│   ├── hooks/              # 业务和通用钩子
+│   ├── layouts/            # 页面布局
+│   ├── localdb/            # 本地数据库助手
+│   ├── locales/            # 国际化文件
+│   ├── plugins/            # 插件配置
+│   ├── router/             # 路由配置
+│   ├── service/            # API 服务
+│   ├── store/              # Pinia 状态存储
+│   ├── styles/             # 样式文件
+│   ├── theme/              # 主题配置
+│   ├── typings/            # TypeScript 声明
+│   ├── utils/              # 工具函数
+│   ├── views/              # 页面视图
+│   ├── App.vue             # 根组件
+│   └── main.ts             # 入口文件
+├── index.html              # HTML 模板
+├── vite.config.ts          # Vite 配置
+├── tsconfig.json           # TypeScript 配置
+├── uno.config.ts           # UnoCSS 配置
+└── package.json            # 项目清单
 ```
 
-## ✨ Main Features
+## ✨ 主要功能
 
-### Implemented Features
+### 已实现功能
 
-- ✅ Form customization
-- ✅ Chart and report customization (common chart types and calendar charts, Gantt charts, pivot tables, detail tables)
-- ✅ Workflow customization (supporting parallel approval, sequential approval, and OR approval)
-- ✅ System and permission management related functions
-- ✅ Data synchronization
-- ✅ Log recording
+- ✅ 表单定制
+- ✅ 图表报表定制(常用图表类型及日历图、甘特图、透视表、明细表)
+- ✅ 工作流定制（支持并行会签、顺序会签、或签）
+- ✅ 系统及权限管理相关功能
+- ✅ 数据同步
+- ✅ 日志记录
 ...
 
-### Planned Development Features
+### 计划开发功能
 
-- 📍 PostgreSQL database support
-- 📍 Minio, OSS, S3 object storage support
-- 📍 AI digital employee
-- 📍 AI knowledge base management
-- 📍 AI intelligent data analysis
-- 📍 Supports multiple languages
+- 📍 PostgreSQL数据库支持
+- 📍 Minio、OSS、S3对象存储支持
+- 📍 AI数字员工
+- 📍 AI知识库管理
+- 📍 AI数据智能分析
+- 📍 支持多语言
 ...
 
-## 🌐 Repository Mirrors
+### 首发感言 2025.12.24
 
-The canonical source of this project is hosted on **GitHub**. A read-only mirror is maintained on **Gitee** to provide faster access for users in mainland China.
+本项目开发也持续了2年多的时间，经历了一次大的框架重构，虽然不是全职投入，但是也耗费了开发者主要的精力和时间投入，虽然一度希望追求完美，但是开发毕竟不是无成本的，只有更多的企业、开发者共同参与，共建社区共同参与才可能实现完美的目标，也许真正的完美应该是给使用该项目的个人和企业带来实实在在的商业价值才是真完美；在就业形势比较严峻的当下，尤其是毕业生和大龄程序员群体，希望该项目可以作为兼职副业或创业提供快速交付项目的加速引擎；也希望企业能基于该项目构建自己的软件一体化搭建平台，实现软件的自主可控，掌握数据主权；项目团队后续会基于该项目提供一系列培训课程，以此提供适合独立开发者的全栈快速开发所需的必要知识和技能，满足后续持续定制开发所需。
 
-- **Main (GitHub)**: https://github.com/nocozen/nocozen
-- **Mirror (Gitee)**: https://gitee.com/nocozen/nocozen
+## 🌐 仓库镜像说明
 
-> 🔔 Please submit all issues, pull requests, and discussions on **GitHub**. The Gitee repository is a mirror.
+本项目**主仓库托管于 GitHub**，并自动同步至 **Gitee 镜像仓库**，以便中国大陆用户快速访问。
 
-## 📄 License
+- **主站（GitHub）**: https://github.com/nocozen/nocozen
+- **镜像（Gitee）**: https://gitee.com/nocozen/nocozen
+
+> ⚠️ 所有 Issue、Pull Request 及讨论请提交至 **GitHub 主仓库**。Gitee 仅为只读镜像。
+
+## 📄 开源许可证
 
 [![AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+
