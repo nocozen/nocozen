@@ -3,7 +3,7 @@ import { getRgb } from '@sa/color';
 import { DARK_CLASS } from '@/constants/app';
 import { localStg } from '@/utils/storage';
 import { toggleHtmlClass } from '@/utils/common';
-import systemLogo from '@/assets/svg-icon/logo.svg?raw';
+import systemLogo from '@/assets/svg-icon/nocozen.svg?raw';
 import { $t } from '@/locales';
 
 export function setupLoading() {

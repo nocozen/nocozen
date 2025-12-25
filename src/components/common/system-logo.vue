@@ -1,5 +1,5 @@
 <template>
-  <icon-local-qblogo v-if="!logoPath" />
+  <icon-local-nocozen v-if="!logoPath" />
   <NFlex v-else class="w-12 h-12" :size="0" align="center" justify="center">
     <img :src="`/${logoPath}`" class="object-contain" />
   </NFlex>

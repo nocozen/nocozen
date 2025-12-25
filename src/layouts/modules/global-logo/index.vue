@@ -1,7 +1,7 @@
 <template>
   <a href="http://qinbone.com" target="_blank" class="w-200 flex items-center nowrap-hidden">
-    <SystemLogo class="text-32px text-primary"/>
-    <h2 v-show="showTitle" class="pl-8px text-16px text-primary font-bold transition duration-300 ease-in-out">
+    <SystemLogo class="text-28px text-primary"/>
+    <h2 v-show="showTitle" class="pl-8px text-24px text-primary font-bold transition duration-300 ease-in-out">
       {{ $t('system.title') }}
     </h2>
   </a>

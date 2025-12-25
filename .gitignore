@@ -31,5 +31,6 @@ coverage
 
 package-lock.json
 yarn.lock
+qbconfig.json
 
 .VSCodeCounter

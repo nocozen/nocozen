@@ -146,7 +146,7 @@ declare module 'vue' {
     IconGridiconsFullscreen: typeof import('~icons/gridicons/fullscreen')['default']
     IconGridiconsFullscreenExit: typeof import('~icons/gridicons/fullscreen-exit')['default']
     IconIonChevronBack: typeof import('~icons/ion/chevron-back')['default']
-    IconLocalQblogo: typeof import('~icons/local/qblogo')['default']
+    IconLocalNocozen: typeof import('~icons/local/nocozen')['default']
     IconMdiArrowDownThin: typeof import('~icons/mdi/arrow-down-thin')['default']
     IconMdiArrowUpThin: typeof import('~icons/mdi/arrow-up-thin')['default']
     IconMdiKeyboardEsc: typeof import('~icons/mdi/keyboard-esc')['default']
