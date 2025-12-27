@@ -153,11 +153,13 @@ pnpm dev
 > ⚠️ 所有 Issue、Pull Request 及讨论请提交至 **GitHub 主仓库**。Gitee 仅为只读镜像。
 
 
-## 📢 交流与问题反馈微信
+## 📢 交流与问题反馈
+
+### 微信：
 
 <img src="docs/images/laoqin.jpg" width="100" />
 
-## 📮 交流与问题反馈邮箱：qb@qianbone.com
+### 邮箱：qb@qianbone.com
 
 ## 📄 开源许可证
 

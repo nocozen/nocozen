@@ -148,11 +148,13 @@ The canonical source of this project is hosted on **GitHub**. A read-only mirror
 
 > 🔔 Please submit all issues, pull requests, and discussions on **GitHub**. The Gitee repository is a mirror.
 
-## 📢 Contact Us via WeChat
+## 📢 Contact Us
+
+### WeChat：
 
 <img src="docs/images/laoqin.jpg" width="100" />
 
-## 📮 Contact and Support Email: qb@qianbone.com
+### Email: qb@qianbone.com
 
 ## 📄 License
 
