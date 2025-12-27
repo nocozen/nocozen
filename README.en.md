@@ -148,6 +148,12 @@ The canonical source of this project is hosted on **GitHub**. A read-only mirror
 
 > 🔔 Please submit all issues, pull requests, and discussions on **GitHub**. The Gitee repository is a mirror.
 
+## 📢 Contact Us via WeChat
+
+<img src="docs/images/laoqin.jpg" width="100" />
+
+## 📮 Contact and Support Email: qb@qianbone.com
+
 ## 📄 License
 
 [![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
