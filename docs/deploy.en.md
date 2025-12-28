@@ -28,8 +28,8 @@ Webserver started on port 8000
 4. Access the database configuration interface through browser
 
  - Address: http://localhost:8000/init
- - Initial account: qbone
- - Password: qianbone.com
+ - account: qbone
+ - Initial Password: qianbone.com
 
 5. After opening the configuration interface, configure the Mongodb IP, port, database name, account and password; corresponding to the configuration items in qb-config.json
 

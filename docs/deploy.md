@@ -28,8 +28,8 @@ Webserver started on port 8000
 4、浏览器登录数据库配置界面
 
  - 地址：http://localhost:8000/init
- - 初始账户：qbone
- - 密码：qianbone.com
+ - 账户：qbone
+ - 初始密码：qianbone.com
 
 5、打开配置界面后配置Mongodb ip、端口、库名、账户和密码；对应qb-config.json中的配置项
 
