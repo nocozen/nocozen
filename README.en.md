@@ -74,6 +74,8 @@ Account: qbone   Initial Password: qianbone.com
 
 After logging in, Modify the MongoDB database configuration. After modification, restart the service. For the first login to the system, you need to register enterprise information and creator account. After successful registration, log in with the creator account to use the system. Administrators can change the administrator password. The next time you log in to the initialization settings page, you need to use the new password. If you forget the password, you can delete the qb-config.json configuration file, re-run the system, and reconfigure the initialization parameters.
 
+<a href="docs/deploy.en.md">Installation and Deployment Detailed Instructions</a>
+
 ## 📁 Project Structure
 
 ```

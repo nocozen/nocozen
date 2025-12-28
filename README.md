@@ -10,7 +10,6 @@ NocoZen(仟伯零代码软件搭建平台)是一个基于 Vue3 和 Node.js 构�
 
 <a href="./docs/images/workbench.jpg">【工作台示例】</a>    <a href="./docs/images/board.jpg">【仪表盘示例】</a>     <a href="./docs/images/form-editor.jpg">【表单设计界面示例】</a>     <a href="./docs/images/flow-editor.jpg">【流程设计界面示例】</a>     <a href="./docs/images/board-editor-gantt.jpg">【仪表盘甘特图示例】</a>    <a href="./docs/images/board-pivottable.jpg">【仪表盘透视表示例】</a>       <a href="./docs/images/board-calender.jpg">【仪表盘日历图示例】</a>
 
-
 👉 如果这个项目对您有帮助，请点个 ⭐️ 支持我们！每一个Star都是我们持续迭代的动力～
 
 ## 🚀 核心优势
@@ -75,6 +74,8 @@ pnpm dev
 账户：qbone   初始密码：qianbone.com
 
 登录后打开初始化参数设置界面修改MongoDB数据库配置，修改完成后重启服务即可。首次登录系统需要先注册企业信息和创建者账户，注册成功后用创建者账户登录即可使用。管理员可以修改管理员密码，下次登录初始化设置界面需要使用新密码。如果遗忘密码可以删除qb-config.json配置文件重新运行系统重新配置初始化参数即可。
+
+<a href="docs/deploy.md">安装部署详细说明</a>
 
 ## 📁 项目结构
 
