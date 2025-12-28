@@ -7,7 +7,7 @@
 ├── index.js                # 服务器入口文件
 ├── worker.js               # 服务器模块
 ├── uws_win32_x64_127.node  # 服务器模块
-├── node.exe / node         # 服务器运行环境 node.js, 自己安装node.js运行环境就不需要这个了
+├── node.exe / node         # 服务器运行环境 node.js 执行文件, 自己安装node.js运行环境就不需要这个了
 ├── qb-config.json          # Mongodb数据库配置文件（启动项目时自动创建）
 ├── qblogs                  # 系统日志文件（启动项目时自动创建）
 └── run.bat / run.sh        # 启动脚本文件，默认使用当前路径下的node.js，使用自己安装的node.js环境要修改下
