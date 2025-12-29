@@ -1,8 +1,8 @@
 ## Release Package File Description
 
-The Windows package is based on Windows 11 25H2 and compatible versions.
+The Windows package is based on Windows 11 25H2 + Node.js v22.18.0  and compatible versions.
 
-The Linux package is based on: Alibaba Cloud Linux 3.2104 U11 (OpenAnolis Edition) and compatible versions.
+The Linux package is based on: Alibaba Cloud Linux 3.2104 U11 + Node.js v22.18.0 and compatible versions.
 
 For other requirements, you need to install a compatible node.js environment and copy a compatible uWebSockets.js package;
 
