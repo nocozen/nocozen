@@ -76,3 +76,8 @@ pnpm run build
 
 node.js环境部署时需要自己安装，或者将node执行文件复制到dist根路径下。
 
+## 参考文档：
+
+<a href="NocoZen仟伯零代码平台v1.2.0_安装手册.docx">NocoZen仟伯零代码平台v1.2.0_安装手册</a>
+
+<a href="NocoZen仟伯零代码平台v1.2_使用手册.pdf">NocoZen仟伯零代码平台v1.2_使用手册</a>

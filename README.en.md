@@ -6,6 +6,8 @@ NocoZen (Qianbo No-Code Software Building Platform) is a nocode/low-code web app
 
 If you want to have the out-of-the-box user experience of mature products like Mingdao Cloud and Jiandao Cloud, but want to build your own completely custom no-code development platform, and find starting from scratch too costly, and as an enterprise user, you also want to achieve auditability, source code controllability, and data sovereignty, then building your own no-code software platform based on this open-source project is your only suitable option, providing you with a perfect starting point. It enables both out-of-the-box visual construction, and allows for rapid business system launch without starting from scratch. Whether you want to build internal management systems, or want to build your own SaaS platform, NocoZen is your ideal choice.
 
+<a href="docs/deploy.en.md">Installation and Deployment Detailed Instructions</a>
+
 Here are some screenshots of the interface:
 
 <a href="./docs/images/workbench.jpg">【Workbench Example】</a>    <a href="./docs/images/board.jpg">【Dashboard Example】</a>     <a href="./docs/images/form-editor.jpg">【Form Design Interface Example】</a>     <a href="./docs/images/flow-editor.jpg">【Workflow Design Interface Example】</a>     <a href="./docs/images/board-editor-gantt.jpg">【Dashboard Gantt Chart Example】</a>    <a href="./docs/images/board-pivottable.jpg">【Dashboard Pivot Table Example】</a>       <a href="./docs/images/board-calender.jpg">【Dashboard Calendar Chart Example】</a>
@@ -73,8 +75,6 @@ Initial Login:
 Account: qbone   Initial Password: qianbone.com
 
 After logging in, Modify the MongoDB database configuration. After modification, restart the service. For the first login to the system, you need to register enterprise information and creator account. After successful registration, log in with the creator account to use the system. Administrators can change the administrator password. The next time you log in to the initialization settings page, you need to use the new password. If you forget the password, you can delete the qb-config.json configuration file, re-run the system, and reconfigure the initialization parameters.
-
-<a href="docs/deploy.en.md">Installation and Deployment Detailed Instructions</a>
 
 ## 📁 Project Structure
 

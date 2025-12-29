@@ -6,6 +6,8 @@ NocoZen(仟伯零代码软件搭建平台)是一个基于 Vue3 和 Node.js 构�
 
 如果您既想要拥有明道云、简道云这样成熟产品的即开即用的用户体验，又想要打造完全属于自己的零代码开发平台，从零开始成本又太高，如果是企业用户想要实现可审计、源代码可掌控、数据主权可掌控，那么基于该开源项目打造自己的零代码软件平台是您唯一适合的选项，可以为您提供了一个完美的起点，既能够实现即开即用的可视化搭建，又无需从零开发就能快速上线业务系统，无论是想要搭建内部管理系统，还是想要打造自己的SaaS平台，NocoZen都是你理想的选择。
 
+<a href="docs/deploy.md">安装部署详细说明</a>
+
 部分界面截图展示：
 
 <a href="./docs/images/workbench.jpg">【工作台示例】</a>    <a href="./docs/images/board.jpg">【仪表盘示例】</a>     <a href="./docs/images/form-editor.jpg">【表单设计界面示例】</a>     <a href="./docs/images/flow-editor.jpg">【流程设计界面示例】</a>     <a href="./docs/images/board-editor-gantt.jpg">【仪表盘甘特图示例】</a>    <a href="./docs/images/board-pivottable.jpg">【仪表盘透视表示例】</a>       <a href="./docs/images/board-calender.jpg">【仪表盘日历图示例】</a>
@@ -74,8 +76,6 @@ pnpm dev
 账户：qbone   初始密码：qianbone.com
 
 登录后打开初始化参数设置界面修改MongoDB数据库配置，修改完成后重启服务即可。首次登录系统需要先注册企业信息和创建者账户，注册成功后用创建者账户登录即可使用。管理员可以修改管理员密码，下次登录初始化设置界面需要使用新密码。如果遗忘密码可以删除qb-config.json配置文件重新运行系统重新配置初始化参数即可。
-
-<a href="docs/deploy.md">安装部署详细说明</a>
 
 ## 📁 项目结构
 
