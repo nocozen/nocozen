@@ -1,8 +1,11 @@
 ## 发布包文件说明
 
 Windows包基于windows 11 25H2 及兼容版本
+
 Linux包基于：Alibaba Cloud Linux 3.2104 U11 (OpenAnolis Edition) 及兼容版本
+
 其它需求需安装兼容的node.js环境和复制兼容的uWebSockets.js包；
+
 或自行构建docker安装
 
 ```
